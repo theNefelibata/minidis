@@ -11,13 +11,13 @@ Last Edited Time: July 10, 2021 9:38 PM
 
 跳表全称为跳跃列表，它允许快速查询，插入和删除一个有序连续元素的数据链表。跳跃列表的平均查找和插入时间复杂度都是O(logn)。快速查询是通过维护一个多层次的链表，且每一层链表中的元素是前一层链表元素的子集。一开始时，算法在最稀疏的层次进行搜索，直至需要查找的元素在该层两个相邻的元素中间。这时，算法将跳转到下一个层次，重复刚才的搜索，直到找到需要查找的元素为止。
 
-![skiplist%207d766a7ca7c84d558da0141d47c6ced8/Untitled.png](skiplist%207d766a7ca7c84d558da0141d47c6ced8/Untitled.png)
+![https://github.com/theNefelibata/minidis/blob/main/image/Untitled.png](skiplist%207d766a7ca7c84d558da0141d47c6ced8/Untitled.png)
 
 ### 跳表的查询、插入与删除
 
 - 查询
 
-![skiplist%207d766a7ca7c84d558da0141d47c6ced8/Untitled%201.png](skiplist%207d766a7ca7c84d558da0141d47c6ced8/Untitled%201.png)
+![https://github.com/theNefelibata/minidis/blob/main/image/Untitled%201.png](skiplist%207d766a7ca7c84d558da0141d47c6ced8/Untitled%201.png)
 
 - 插入
 
@@ -29,7 +29,7 @@ Last Edited Time: July 10, 2021 9:38 PM
 
 这样可以很有效的防止跳表退化，而造成效率变低。
 
-![skiplist%207d766a7ca7c84d558da0141d47c6ced8/Untitled%202.png](skiplist%207d766a7ca7c84d558da0141d47c6ced8/Untitled%202.png)
+![https://github.com/theNefelibata/minidis/blob/main/image/Untitled%202.png](skiplist%207d766a7ca7c84d558da0141d47c6ced8/Untitled%202.png)
 
 - 删除
 
